@@ -1,0 +1,70 @@
+.top {
+  padding: 0 4%;
+  background-image: url(../public/main.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: var(--logo);
+  margin-top: 28px;
+}
+.mainNav {
+  display: flex;
+  font-size: var(--nav);
+  text-transform: uppercase;
+  margin-top: 34px;
+}
+.mainNav li {
+  margin-left: 28px;
+}
+.mainNav a {
+  color: var(--black);
+}
+.mainNav a:hover {
+  color: var(--gray-50);
+}
+
+
+.pageContent {
+  text-align: right;
+  margin-top: 10%;
+  color: var(--white);
+  text-shadow: 0 0 10px var(--gray-25);
+  animation: SlideIn 3s;
+}
+@keyframes SlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(64px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.pageSub {
+  margin-right: 15%;
+  font-size: var(--sub);
+}
+.pageTitle {
+  font-family: 'Permanent Marker', cursive;
+  font-size: var(--natori);
+  letter-spacing: 0.12em;
+}
+.pageTitleSub {
+  font-size: var(--title-sub);
+}
+
+@media screen and (max-width: 640px) {
+  .pageContent {
+    margin-top: var(--space);
+  }
+}

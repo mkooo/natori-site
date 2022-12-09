@@ -1,0 +1,41 @@
+.wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+.natori {
+  background-image: url(../public/people.jpg); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+
+.title {
+  margin-top: 5%;
+  text-align: center;
+}
+
+
+.project {
+  padding: 5%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.project div {
+  width: 20%;
+}
+.project p {
+  font-size: var(--small);
+  line-height: 1.7;
+  letter-spacing: 2;
+}
+.project img {
+  width: 100%;
+  border-radius: 50%;
+}

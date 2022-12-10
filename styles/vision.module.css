@@ -31,7 +31,6 @@
   font-size: var(--small);
 }
 .topics .text {
-  margin-top: 5%;
   color: var(--gray-50);
   letter-spacing: 0.12em;
   line-height: 1.5;

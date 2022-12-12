@@ -29,9 +29,15 @@
 }
 .project div {
   width: 20%;
+  text-align: center;
+}
+.project .name {
+  font-size: var(--heading2);
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 .project p {
-  font-size: var(--small);
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 2;
 }

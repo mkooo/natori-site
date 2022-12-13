@@ -7,7 +7,20 @@ import member4 from '../public/member4.jpg';
 export default function Member() {
   return (
     <section>
-      <div className={styles.natori}></div>
+      <div className={styles.natori}>
+        <div>
+          <img src="../natori1.JPG" alt="名取の農家" />
+        </div>
+        <div>
+          <img src="../natori2.jpg" alt="名取の案内人" />
+        </div>
+        <div>
+          <img src="../natori3.jpg" alt="名取の漁師" />
+        </div>
+        <div>
+          <img src="../natori4.jpg" alt="名取の絶壁" />
+        </div>
+      </div>
       <div className={styles.title}>
         <h2>Member</h2>
       </div>

@@ -1,5 +1,5 @@
 .main {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: space-around;
 }
@@ -14,11 +14,11 @@
   text-align: left;
   line-height: 2;
 }
+
 .imgbox {
-  width: 50%;
+  width: 35%;
   position: relative;
 }
-
 .nftImage {
   width: var(--nft-img);
   position: absolute;
@@ -43,10 +43,12 @@
 }
 
 
-
-
-
-
-
 @media screen and (max-width: 640px) {
+  .main {
+    height: 70vh;
+  }
+  .imgbox {
+    width: 50%;
+    position: relative;
+  }
 }

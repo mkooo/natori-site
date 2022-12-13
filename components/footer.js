@@ -4,12 +4,17 @@ export default function Footer() {
   return (
     <footer className={styles.main}>
       <div className={styles.title}>
-        <p><small>©クリプト集落 NATORIプロジェクト</small></p>
+        <p className={styles.text}>DAOを目指す世界一小さな限界集落</p>
+        <p className={styles.text}>世界と繋がり自立した持続可能な集落を創造する</p>
+        <p className={styles.projectName}>©クリプト集落 NATORIプロジェクト</p>
       </div>
       <div className={styles.sns}>
-        <div>
-
-        </div>
+        <ul>
+          <li>Twitter</li>
+          <li>Instagram</li>
+          <li>YouTube</li>
+          <li>Discord</li>
+        </ul>
       </div>
     </footer>
   )

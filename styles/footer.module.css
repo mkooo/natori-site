@@ -1,5 +1,5 @@
 .main {
-  height: 50vh;
+  height: 30vh;
   background-color: var(--gray-75);
   color: var(--white);
   display: flex;
@@ -8,14 +8,21 @@
 }
 
 .title {
-  width: 50%;
-  margin-top: 10%;
+/*   width: 50%; */
+/*   margin-top: 10%; */
   text-align: center;
 /*   border: 1px solid #aaa; */
 }
+.title .text {
+  font-size: var(--nav);
+}
+.title .projectName {
+  font-size: 16px;
+  margin-top: 25px;
+}
 
 .sns {
-  width: 50%;
+/*   width: 50%; */
   display: flex;
   justify-content: space-around;
 /*   border: 1px solid #aaa; */

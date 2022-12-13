@@ -8,7 +8,7 @@ export default function Nft() {
         <p className={styles.text}>
           ここにNFTについてなにか説明文を記載する。<br/>
           ここにNFTについてなにか説明文を記載するここにNFTについてなにか説明文を記載する
-          ここにNFTについてなにか説明文を記載するここにNFTについてなにか説明文を記載するここにNFTについてなにか説明文を記載する
+          ここにNFTについてなにか説明文を記載する
         </p>
         <a className={styles.button} href="#">NFTを見る</a>
       </div>

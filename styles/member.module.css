@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-
+/*
 .natori {
   background-image: url(../public/people.jpg); 
   background-size: cover;
@@ -12,13 +12,20 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+*/
+.natori {
+  display: flex;
+  flex-direction: row;
+}
+.natori img {
+  width: 100%;
+}
 
 
 .title {
   margin-top: 5%;
   text-align: center;
 }
-
 
 .project {
   padding: 5%;
@@ -44,4 +51,23 @@
 .project img {
   width: 100%;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 640px) {
+  .title h2 {
+    margin-bottom: 35px;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+  }
+  .project div {
+    width: 75%;
+    margin-bottom: 45px;
+  }
+  .project img {
+    width: 60%;
+  }
 }

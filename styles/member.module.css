@@ -1,26 +1,10 @@
-.wrap {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-/*
-.natori {
-  background-image: url(../public/people.jpg); 
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-*/
 .natori {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .natori img {
   width: 100%;
 }
-
 
 .title {
   margin-top: 5%;
@@ -29,7 +13,6 @@
 
 .project {
   padding: 5%;
-  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -53,15 +36,16 @@
   border-radius: 50%;
 }
 
+
+
 @media screen and (max-width: 640px) {
   .title h2 {
-    margin-bottom: 35px;
+    margin-bottom: 8%;
   }
 
   .project {
     display: flex;
     flex-direction: column;
-    height: 150vh;
   }
   .project div {
     width: 75%;

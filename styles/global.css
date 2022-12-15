@@ -8,16 +8,15 @@
   --gray-75: #444444;
   --orange: #ff6633;
 
-  --body: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
-  --small: clamp(0.7rem, 0.409rem + 1.45vw, 1.5rem);
-  --logo: clamp(1.875rem, 1.193rem + 3.41vw, 3.75rem);
+  --body: clamp(0.8rem, 0.727rem + 0.36vw, 1rem);
+  --small: clamp(0.6rem, 0.527rem + 0.36vw, 0.8rem);
   --nav: clamp(0.5rem, 0.227rem + 1.36vw, 1.25rem);
   --natori: clamp(2rem, -0.182rem + 10.91vw, 8rem);
   --sub: clamp(1rem, 0.636rem + 1.82vw, 2rem);
   --title-sub: clamp(1rem, -0.091rem + 5.45vw, 4rem);
   --top: clamp(3rem, 0.455rem + 12.73vw, 10rem);
   --topic: clamp(2rem, 1.273rem + 3.64vw, 4rem);
-  --nft-img: clamp(10rem, 6.364rem + 18.18vw, 20rem);
+  --button: clamp(1rem, 0.927rem + 0.36vw, 1.2rem);
   
   --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
   --heading2: calc(var(--body) * 1.5);
@@ -28,7 +27,6 @@
   --space-md: calc(var(--space-xs) * 2);
   --space-lg: calc(var(--space-xs) * 3);
   --space-xl: calc(var(--space-xs) * 4);
-  --space: calc(var(--space-xs) * 10);
   --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem);
 }
 

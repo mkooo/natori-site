@@ -1,14 +1,13 @@
 .wrap {
   width: 100%;
   margin: 0 auto;
-  height: 50vh;
+/*   height: var(--vision); */
   color: var(--black);
 }
 
 .pageTitle {
   text-align: center;
   margin-top: 6%;
-  margin-bottom: 3%;
   letter-spacing: 0.20em;
   font-size: var(--heading2);
   font-weight: normal;
@@ -17,6 +16,7 @@
 .topics {
   display: flex;
   justify-content: space-around;
+  margin: 5% 0 8%;
 }
 .topics div {
   width: 320px;
@@ -39,12 +39,10 @@
 
 
 @media screen and (max-width: 640px) {
-  .wrap {
-    height: 65vh;
-  }
   .pageTitle {
     margin-left: 5%;
     margin-right: 5%;
+    letter-spacing: 0.1em;
   }
   .topics {
     flex-direction: column;

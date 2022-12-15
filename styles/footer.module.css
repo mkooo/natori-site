@@ -1,5 +1,5 @@
 .main {
-  height: 30vh;
+  padding: 3%;
   background-color: var(--gray-75);
   color: var(--white);
   display: flex;
@@ -8,10 +8,7 @@
 }
 
 .title {
-/*   width: 50%; */
-/*   margin-top: 10%; */
   text-align: center;
-/*   border: 1px solid #aaa; */
 }
 .title .text {
   font-size: var(--nav);
@@ -21,9 +18,10 @@
   margin-top: 25px;
 }
 
-.sns {
-/*   width: 50%; */
-  display: flex;
-  justify-content: space-around;
-/*   border: 1px solid #aaa; */
+.sns li {
+  margin-bottom: 8px;
+}
+
+.sns a:hover {
+  color: var(--gray-25);
 }

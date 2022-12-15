@@ -10,8 +10,8 @@ export default function Vision() {
           <p className={styles.text}>愛媛県の佐田岬半島にある標高140mの崖に位置する限界集落</p>
         </div>
         <div>
-          <h3><span className={styles.number}>162</span><span className={styles.unit}>人</span></h3>
-          <p className={styles.text}>深刻な高齢化で過疎化が進み、今はわずか162人・90世帯のみ</p>
+          <h3><span className={styles.number}>160</span><span className={styles.unit}>人</span></h3>
+          <p className={styles.text}>深刻な高齢化で過疎化が進み、今はわずか160人・90世帯のみ</p>
         </div>
         <div>
           <h3><span className={styles.number}>400</span><span className={styles.unit}>年</span></h3>

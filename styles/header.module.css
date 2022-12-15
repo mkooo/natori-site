@@ -2,15 +2,16 @@
   padding: 0 4%;
   background-image: url(../public/main.jpg);
   background-size: cover;
-  background-position: center center;
+  background-position: bottom left;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 75vh;
 }
 
 
 .pageHeader {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
 }
 .logo {
   width: var(--logo);
@@ -63,8 +64,13 @@
   font-size: var(--title-sub);
 }
 
+
+  
 @media screen and (max-width: 640px) {
+  .top {
+    height: 45vh;
+  }
   .pageContent {
-    margin-top: var(--space);
+    margin-top: var(--space-lg);
   }
 }

@@ -1,54 +1,31 @@
 .main {
-  height: 90vh;
+  padding: 5% 2%;
+  text-align: center;
+}
+.main .text {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.imgBox {
   display: flex;
   justify-content: space-around;
+  gap: 8px;
 }
-
-.content {
-  width: 50%;
-  padding: 5% 10%;
-}
-.text {
-  margin-bottom: 25px;
-  font-size: var(--small);
-  text-align: left;
-  line-height: 2;
-}
-
-.imgbox {
-  width: 35%;
-  position: relative;
-}
-.nftImage {
-  width: var(--nft-img);
-  position: absolute;
-  top: 20%;
-  left: 0;
-  transform: rotate(15deg);
-/*   drop-shadow: 0 0 10px var(--gray-75); */
-  box-shadow: 0 0 20px var(--gray-75);
+.imgBox img {
+  width: 100%;
 }
 
 .button {
   display: block;
-  width: 160px;
-  margin: 0 auto;
+  width: 40%;
+  margin: 5% auto;
   background: var(--accent);
+  font-size: var(--button);
   color: #fff;
   border-radius: 5px;
   padding: 18px 32px;
 }
 .button:hover {
     background: #0090aa;
-}
-
-
-@media screen and (max-width: 640px) {
-  .main {
-    height: 70vh;
-  }
-  .imgbox {
-    width: 50%;
-    position: relative;
-  }
 }

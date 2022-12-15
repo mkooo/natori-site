@@ -1,91 +1,42 @@
 .wrap {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-
-.main {
-  background: linear-gradient(rgba(0, 0, 0, .8),  rgba(0, 0, 0, .4)),  url(../public/history.jpg); 
+  background: linear-gradient(rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8)),  url(../public/history.jpg); 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: clamp(25rem, 19.545rem + 27.27vw, 40rem);
+  position: relative;
 }
 
-
-.pageContent {
-  padding-top: 10%;
+.title {
   position: absolute;
-  width: 100%;
+  top: 0;
+  right: 0;
   color: var(--white);
-/*   border: 1px solid #fff; */
-  text-align: center;
+  padding: 5% 3% 0;
 }
-.pageSub {
-  width: 60%;
+.pageTitle {
+  font-size: var(--heading3);
+}
+
+.Content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  padding: 0 3% 6%;
+  color: var(--white);
+  text-align: left;
+}
+.pageHistory {
   margin: 0 auto;
   line-height: 2.0;
   letter-spacing: 1.4px;
 }
 
+
+
+
 /*
-.wrap {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-
-
-.vision {
-  width: 100%;
-  margin: 0 auto;
-  background-image: url(../public/vision.jpg);
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  height: 80vh;
-  opacity: 0.2;
-}
-
-
-.pageContent {
-  position: absolute;
-  width: 100%;
-  color: var(--black);
-  border: 1px solid #aaa;
-
-
-.pageContent {
-  text-align: right;
-  margin-top: 10%;
-  color: var(--white);
-  text-shadow: 0 0 10px var(--gray-25);
-  animation: SlideIn 3s;
-}
-@keyframes SlideIn {
-  0% {
-    opacity: 0;
-    transform: translateY(64px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.pageSub {
-  margin-right: 15%;
-  font-size: var(--sub);
-}
-.pageTitle {
-  font-family: 'Permanent Marker', cursive;
-  font-size: var(--natori);
-  letter-spacing: 0.12em;
-}
-.pageTitleSub {
-  font-size: var(--title-sub);
-}
-
 @media screen and (max-width: 640px) {
   .pageContent {
     margin-top: var(--space);

@@ -1,24 +1,17 @@
 import styles from '../styles/member.module.css';
-import member1 from '../public/member1.JPG';
-import member2 from '../public/member2.jpg';
-import member3 from '../public/member3.jpg';
-import member4 from '../public/member4.jpg';
 
 export default function Member() {
   return (
     <section>
       <div className={styles.natori}>
         <div>
-          <img src="../natori1.JPG" alt="名取の農家" />
+          <img src="../natori5.jpg" alt="名取の人々" />
         </div>
         <div>
-          <img src="../natori2.jpg" alt="名取の案内人" />
+          <img src="../natori6.jpg" alt="名取の案内人" />
         </div>
         <div>
-          <img src="../natori3.jpg" alt="名取の漁師" />
-        </div>
-        <div>
-          <img src="../natori4.jpg" alt="名取の絶壁" />
+          <img src="../natori7.jpg" alt="名取の漁師" />
         </div>
       </div>
       <div className={styles.title}>

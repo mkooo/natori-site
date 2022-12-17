@@ -2,6 +2,9 @@
   padding: 5% 2%;
   text-align: center;
 }
+.main h2 {
+  letter-spacing: 0.6rem;
+}
 .main .text {
   width: 80%;
   margin: 0 auto;

@@ -20,6 +20,7 @@
   --history: clamp(0.6rem, 0.455rem + 0.73vw, 1rem);
   --message: clamp(0.65rem, 0.159rem + 2.45vw, 2rem);
   --natori-info: clamp(0.6rem, 0.382rem + 1.09vw, 1.2rem);
+  --goal: clamp(0.7rem, 0.445rem + 1.27vw, 1.4rem);
   
   --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
   --heading2: calc(var(--body) * 1.5);

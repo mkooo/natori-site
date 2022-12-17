@@ -14,12 +14,12 @@ export default function Document() {
         <meta property ="og:url" content ="https://natori.netlify.app/"/>
         <meta property ="og:title" content ="クリプト集落 NATORIプロジェクト"/>
         <meta property ="og:description" content ="DAOを目指す世界一小さな限界集落"/>
-        <meta property ="og:image" content ="https://natori-site.dogooo.repl.co/natori-ogp.jpg"/>
+        <meta property ="og:image" content ="https://natori.netlify.app/natori-ogp.jpg"/>
         <meta property ="twitter:card" content ="summary_large_image"/>
         <meta property ="twitter:url" content ="https://natori.netlify.app/"/>
         <meta property ="twitter:title" content ="クリプト集落 NATORIプロジェクト"/>
         <meta property ="twitter:description" content ="DAOを目指す世界一小さな限界集落"/>
-        <meta property ="twitter:image" content ="https://natori-site.dogooo.repl.co/natori-ogp.jpg"/>
+        <meta property ="twitter:image" content ="https://natori.netlify.app/natori-ogp.jpg"/>
       </Head>
       <body>
         <Main />

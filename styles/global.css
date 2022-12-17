@@ -17,6 +17,9 @@
   --top: clamp(3rem, 0.455rem + 12.73vw, 10rem);
   --topic: clamp(2rem, 1.273rem + 3.64vw, 4rem);
   --button: clamp(1rem, 0.927rem + 0.36vw, 1.2rem);
+  --history: clamp(0.6rem, 0.455rem + 0.73vw, 1rem);
+  --message: clamp(0.65rem, 0.159rem + 2.45vw, 2rem);
+  --natori-info: clamp(0.6rem, 0.382rem + 1.09vw, 1.2rem);
   
   --heading1: clamp(2rem, 1.3rem + 3vw, 4rem);
   --heading2: calc(var(--body) * 1.5);

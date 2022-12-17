@@ -1,9 +1,9 @@
 .wrap {
   background: linear-gradient(rgba(0, 0, 0, .4),  rgba(0, 0, 0, .8)),  url(../public/history.jpg); 
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   background-repeat: no-repeat;
-  height: clamp(25rem, 19.545rem + 27.27vw, 40rem);
+  height: clamp(13.5rem, 0.227rem + 66.36vw, 50rem);
   position: relative;
 }
 
@@ -23,11 +23,13 @@
   bottom: 0;
   left: 0;
   position: absolute;
+  width: 60%;
   padding: 0 3% 6%;
   color: var(--white);
   text-align: left;
 }
 .pageHistory {
+  font-size: var(--history);
   margin: 0 auto;
   line-height: 2.0;
   letter-spacing: 1.4px;

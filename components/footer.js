@@ -10,9 +10,9 @@ export default function Footer() {
       </div>
       <div className={styles.sns}>
         <ul>
-          <li><a href="https://twitter.com/?lang=ja">Twitter</a></li>
-          <li><a href="https://note.com/">note</a></li>
-          <li><a href="https://www.youtube.com/">YouTube</a></li>
+          <li><a href="https://note.com/tsunagu/m/m1318fe46fc82">note</a></li>
+          <li><a href="https://twitter.com/natoriNFT">Twitter</a></li>
+          <li><a href="https://opensea.io/collection/crypto-natori-collection">Opensea</a></li>
           <li><a href="https://discord.gg/jUjfgJWZSq">Discord</a></li>
         </ul>
       </div>

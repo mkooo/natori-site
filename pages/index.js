@@ -1,4 +1,5 @@
 import Vision from '../components/vision.js';
+import Message from '../components/message.js';
 import Natori from '../components/natori.js';
 import History from '../components/history.js';
 import Nft from '../components/nft.js';
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Vision />
+      <Message />
       <Natori />
       <History />
       <Nft />

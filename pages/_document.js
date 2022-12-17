@@ -4,7 +4,9 @@ export default function Document() {
   return (
     <Html>
       <Head>
+        <meta charset='utf-8' />
         <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Zen+Antique+Soft&display=swap" rel="stylesheet"/>
+        <title>クリプト集落 NATORIプロジェクト</title>
         <meta name ="title" content ="クリプト集落 NATORIプロジェクト"/>
         <meta name ="description" content ="DAOを目指す世界一小さな限界集落"/>
         <meta name ="copyright" content ="NATORI"/>

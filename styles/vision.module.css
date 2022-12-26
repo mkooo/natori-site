@@ -40,8 +40,9 @@
 
 @media screen and (max-width: 640px) {
   .pageTitle {
-    margin-left: 5%;
-    margin-right: 5%;
+    font-size: var(--heading3);
+    margin-left: 3%;
+    margin-right: 3%;
     letter-spacing: 0.1em;
   }
   .topics {

@@ -2,7 +2,7 @@ import styles from '../styles/history.module.css';
 
 export default function History() {
   return (
-    <section className={styles.wrap}>
+    <section id="history" className={styles.wrap}>
       <div className={styles.title}>
         <p className={styles.pageTitle}>水神様<br/>Mizugamisama</p>
       </div>

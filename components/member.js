@@ -14,7 +14,7 @@ export default function Member() {
           <img src="../natori7.jpg" alt="名取の漁師" />
         </div>
       </div>
-      <div className={styles.title}>
+      <div id="member" className={styles.title}>
         <h2>Member</h2>
       </div>
       <div className={styles.project}>

@@ -13,6 +13,7 @@
 }
 
 .imgBox {
+  margin-bottom: 6%;
   display: flex;
   justify-content: space-around;
   gap: 8px;
@@ -24,7 +25,7 @@
 .button {
   display: block;
   width: 40%;
-  margin: 6% auto;
+  margin: 1% auto 8%;
   font-size: var(--button);
   border-radius: 5px;
   border: 3px solid var(--orange);
@@ -33,4 +34,13 @@
 .button:hover {
   background: var(--gray-10);
   color: var(--gray-50);
+}
+
+.sns {
+  margin-bottom: 6%;
+  display: flex;
+  justify-content: space-around;
+}
+.sns img {
+  width: 90%;
 }

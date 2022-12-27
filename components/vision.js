@@ -2,7 +2,7 @@ import styles from '../styles/vision.module.css';
 
 export default function Vision() {
   return (
-    <section className={styles.wrap}>
+    <section id="vision" className={styles.wrap}>
       <h2 className={styles.pageTitle}>DAOを目指す世界一小さな限界集落</h2>
       <div className={styles.topics}>
         <div>

@@ -33,6 +33,9 @@
   --space-xl: calc(var(--space-xs) * 4);
   --space-jump: clamp(1.25rem, 0.35rem + 3.8vw, 3.75rem);
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: var(--black);

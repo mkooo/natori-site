@@ -7,11 +7,11 @@ export default function Header() {
       <header className={styles.pageHeader}>
         <nav>
           <ul className={styles.mainNav}>
-            <li><a href="#">Vision</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">NFT</a></li>
-            <li><a href="#">Member</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#nft">NFT</a></li>
+            <li><a href="#member">Member</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>

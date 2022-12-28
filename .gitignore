@@ -35,7 +35,7 @@ yarn-error.log*
 .eslintrc.json
 
 # local env files
-.env*.local
+.env.local
 
 # vercel
 .vercel

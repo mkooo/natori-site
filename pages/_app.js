@@ -1,4 +1,3 @@
-import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import Head from 'next/head';
 import Script from 'next/script';
@@ -28,7 +27,6 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>クリプト集落 NATORIプロジェクト</title>
       </Head>
-      <Header />
       <Component {...pageProps} />
       <Footer />
     </>

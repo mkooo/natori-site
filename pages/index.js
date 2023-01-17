@@ -1,3 +1,4 @@
+import Header from '../components/header.js';
 import Vision from '../components/vision.js';
 import Message from '../components/message.js';
 import Natori from '../components/natori.js';
@@ -10,6 +11,7 @@ import Contact from '../components/contact.js';
 export default function Home() {
   return (
     <>
+      <Header />
       <Vision />
       <Message />
       <Natori />

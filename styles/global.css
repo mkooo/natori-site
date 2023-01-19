@@ -63,6 +63,6 @@ body,h1,h2,h3,p,figure,ul {
   box-sizing: border-box;
 }
 a {
-  color: inherit;
+  color: var(--accent);
   text-decoration: none;
 }

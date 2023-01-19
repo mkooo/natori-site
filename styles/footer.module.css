@@ -17,11 +17,20 @@
   font-size: 14px;
   margin-top: 25px;
 }
+.projectName a {
+  color: var(--white);
+}
+.projectName a:hover {
+  color: var(--gray-25);
+}
 
 .sns li {
   margin-bottom: 8px;
 }
 
+.sns a {
+  color: var(--white);
+}
 .sns a:hover {
   color: var(--gray-25);
 }

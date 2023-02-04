@@ -10,6 +10,7 @@
 
   --body: clamp(0.8rem, 0.727rem + 0.36vw, 1rem);
   --small: clamp(0.6rem, 0.527rem + 0.36vw, 0.8rem);
+  --logo: clamp(1.875rem, 1.193rem + 3.41vw, 3.75rem);
   --nav: clamp(0.6rem, 0.455rem + 0.73vw, 1rem);
   --natori: clamp(2rem, -0.182rem + 10.91vw, 8rem);
   --sub: clamp(1rem, 0.636rem + 1.82vw, 2rem);

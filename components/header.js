@@ -5,6 +5,11 @@ export default function Header() {
   return (
     <div className={styles.top}>
       <header className={styles.pageHeader}>
+        <div>
+          <a href="index.html">
+            <img className={styles.logo} src="../kamon.png" alt="NATORIプロジェクト" />
+          </a>
+        </div>
         <nav>
           <ul className={styles.mainNav}>
             <li><a href="#vision">Vision</a></li>

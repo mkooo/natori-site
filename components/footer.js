@@ -13,7 +13,7 @@ export default function Footer() {
         <ul>
           <li><Link href="/news/20230122-nft-begins-general-sales"><a>News</a></Link></li>
           <li><a href="https://note.com/tsunagu/m/m1318fe46fc82">note</a></li>
-          <li><a href="https://twitter.com/natoriNFT">Twitter</a></li>
+          <li><a href="https://twitter.com/natoriNFT">X(twitter)</a></li>
           <li><a href="https://opensea.io/collection/crypto-natori-collection">Opensea</a></li>
           <li><a href="https://discord.gg/jUjfgJWZSq">Discord</a></li>
         </ul>

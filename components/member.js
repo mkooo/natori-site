@@ -31,7 +31,7 @@ export default function Member() {
         <div>
           <img src="../member3.jpg" alt="kondo" />
           <h3 className={styles.name}>kondo</h3>
-          <p>Webクリエイター<br/>Web関連およびスマートコントラクト開発</p>
+          <p>Webクリエイター<br/>Web関連およびスマートコントラクトの開発</p>
         </div>
         <div>
           <img src="../member4.jpg" alt="みくの画像" />

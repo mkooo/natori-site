@@ -19,7 +19,7 @@ export default function Member() {
       </div>
       <div className={styles.project}>
         <div>
-          <img src="../member1.JPG" alt="makiの画像" />
+          <img src="../member1.jpeg" alt="makiの画像" />
           <h3 className={styles.name}>maki</h3>
           <p>ディレクター<br/>NATORIプロジェクト代表</p>
         </div>
